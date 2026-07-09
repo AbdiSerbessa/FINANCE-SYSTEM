@@ -209,7 +209,7 @@ render_header('Dashboard', 'dashboard');
     <?php else: ?>
       <?php
         $max = max(array_column($cost_breakdown, 'total')) ?: 1;
-        $colors = ['#3b82f6','#a78bfa','#f59e0b','#22c55e','#f87171'];
+        $colors = ['#3babf6','#a78bfa','#f59e0b','#22c55e','#f87171'];
       ?>
       <div style="display:flex; flex-direction:column; gap:14px; padding-top:6px;">
         <?php foreach ($cost_breakdown as $i => $row): ?>
